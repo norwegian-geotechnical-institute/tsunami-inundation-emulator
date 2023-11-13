@@ -8,10 +8,9 @@ message: >-
   metadata from this file.
 type: software
 authors:
-  - given-names: Erlend Briseid
-    family-names: Storrøsten
+  - given-names: Erlend
+    family-names: Briseid Storrøsten
     email: erlend.briseid.storrosten@ngi.no
-    name-particle: Erlend
     affiliation: Norwegian Geotechnical Institute
     orcid: 'https://orcid.org/0000-0002-6549-6268'
 repository-code: >-
