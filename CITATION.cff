@@ -1,0 +1,19 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: tsunami-inundation-emulator
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Erlend Briseid
+    family-names: Storrøsten
+    email: erlend.briseid.storrosten@ngi.no
+    name-particle: Erlend
+    affiliation: Norwegian Geotechnical Institute
+    orcid: 'https://orcid.org/0000-0002-6549-6268'
+license: MIT
+commit: 43d9c6ea57de9ab69331cb111cb9ea77f5fd31b7
+date-released: '2023-11-08'
