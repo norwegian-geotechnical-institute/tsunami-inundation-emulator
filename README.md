@@ -1,5 +1,9 @@
 # Site specific emulators for tsunami run-up simulations.
 
+[![SQAaaS badge](https://github.com/EOSC-synergy/SQAaaS/raw/master/badges/badges_150x116/badge_software_silver.png)](https://api.eu.badgr.io/public/assertions/0TVav2TXQPCz_R7ijbeaVg "SQAaaS silver badge achieved")
+
+[![SQAaaS badge shields.io](https://img.shields.io/badge/sqaaas%20software-silver-lightgrey)](https://api.eu.badgr.io/public/assertions/0TVav2TXQPCz_R7ijbeaVg "SQAaaS silver badge achieved")
+
 Local Probabilistic Tsunami Hazard Analysis (PTHA) aims to quantify the probability distribution of inundation intensity parameters, such as maximum flow-depth, on a given location over a given period of time. A common workflow consists of three main stages [Gibbons 2020]: 
 
 1. Establish a stochastic model of the tsunami sources. Based on this model a set of (weighted) scenarios is generated.
