@@ -6,7 +6,7 @@
 
 Local Probabilistic Tsunami Hazard Analysis (PTHA) aims to quantify the probability distribution of inundation intensity parameters, such as maximum flow-depth, on a given location over a given period of time. A common workflow consists of three main stages [Gibbons 2020]: 
 
-1. Establish a stochastic model of the tsunami sources. Based on this model a set of (weighted) scenarios is generated.
+1. Establish a stochastic model of the tsunami sources. Based on this model a set of (weighted) scenarios is generated. 
 2. For each source scenario, approximate maps of the inundation intensity parameters are calculated. 
 To this end one apply depth integrated equations, i.e., the shallow water equations. Linearized shallow water equations are suitable when wave heights are small compared with the depth, however, as waves approach land, the full nonlinear shallow water equations are needed to model the run-up. 
 3. Hazard aggregation.
@@ -23,7 +23,7 @@ The code is written in [Julia](https://julialang.org/) using [Flux](https://flux
 
 # Usage
 First create a data directory for defining test and training sets. The training data is defined in a text file. Each line should contain the path (relative to a root data folder) to each scenario file.
-Test data is specified similarly. The current setup assumes the data is stored in NetCDF. The loading of the data applies [NCDatasets.jl](https://alexander-barth.github.io/NCDatasets.jl) and is implemented in the `datareader.jl` module.
+Test data is specified similarly. The current setup assumes the data is stored in NetCDF. The loading of the data applies [NCDatasets.jl](https://juliapackages.com/p/ncdatasets) and is implemented in the `datareader.jl` module.
 
 The analysis is divided into three main steps: 
 1. **[Create]** The creation of a model is done in the notebook `create-model.ipynb`. As a final step, the model is stored as a subfolder of a `runs` directory. The model folder contains the following:
