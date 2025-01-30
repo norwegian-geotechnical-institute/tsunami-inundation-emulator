@@ -65,8 +65,21 @@ The analysis is divided into three main steps:
 - GPU. The current script runs on CUDA. However, only minor changes in `train-model.jl` is needed to run on CPU.
 
 ### Improvements.
-Currently the loading of the data has been written with training sets that are too large to fit in memory in mind. Several of the applied datsets do fit in memory. It would make training much faster if we could include a switch to load the whole set into memory before training.
+Currently the loading of the data has been written with training sets that are too large to fit in memory in mind. Several of the applied datsets do fit in memory. It would make training much faster if we could include a switch to load the whole set into memory before training.  
+
+### Publication.  
+If you use the code, we would like you to refer to the following publication:
+
+Briseid Storrøsten, Erlend; Ragu Ramalingam, Naveen; Lorito, Stefano;  
+Volpe, Manuela; Sánchez-Linares, Carlos; Løvholt, Finn; Gibbons, Steven J (2024).  
+Machine learning emulation of high resolution inundation maps,  
+*Geophysical Journal International*, 
+238, Issue 1, pp. 382–399,  
+https://doi.org/10.1093/gji/ggae151
+
+![Screenshot from the above paper (https://doi.org/10.1093/gji/ggae151) ](InundationPromoImage.png)
 
 ## References
 
+- Briseid Storrøsten et al. 2024 - [Machine learning emulation of high resolution inundation maps](https://doi.org/10.1093/gji/ggae151)  
 - Gibbons 2020 - [Probabilistic Tsunami Hazard Analysis: High Performance Computing for Massive Scale Inundation Simulations](https://doi.org/10.3389/feart.2020.591549)
