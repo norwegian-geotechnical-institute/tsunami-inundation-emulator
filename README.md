@@ -82,4 +82,4 @@ https://doi.org/10.1093/gji/ggae151
 ## References
 
 - Briseid Storrøsten et al. 2024 - [Machine learning emulation of high resolution inundation maps](https://doi.org/10.1093/gji/ggae151)  
-- Gibbons 2020 - [Probabilistic Tsunami Hazard Analysis: High Performance Computing for Massive Scale Inundation Simulations](https://doi.org/10.3389/feart.2020.591549)
+- Gibbons et al. 2020 - [Probabilistic Tsunami Hazard Analysis: High Performance Computing for Massive Scale Inundation Simulations](https://doi.org/10.3389/feart.2020.591549)
